@@ -7,5 +7,5 @@ Steps to deploy
 - Below is the command to deploy the container. 
 
 ```
-docker run -d --name elastalert --restart always -v `pwd`/config.yaml:/opt/elastalert/config.yaml:z -v `pwd`/rules:/opt/elastalert/rules rensande/elastalert
+docker run -d --name elastalert --restart always -v `pwd`/config.yaml:/opt/elastalert/config.yaml:z -v `pwd`/rules:/opt/elastalert/rules:z rensande/elastalert
 ```
